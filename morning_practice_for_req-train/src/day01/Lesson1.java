@@ -21,7 +21,27 @@ public class Lesson1 {
 
 	public static void main(String[] args) {
 		/*ここから記入*/
-
+		int num1; // 変数の宣言をしている。
+		double num2;
+		String str = "こんちには";
+		boolean b;
+		
+		num1 = 12; // num1に12を代入している。
+		num2 = 1.6;
+		b = true;
+		
+		//パターン1
+		//System.out.println("出力します");
+		//System.out.println(""+ num1 +"");
+		//System.out.println(""+ num2 +"");
+		//System.out.println(""+ str +"");
+		//System.out.println(""+ b +"");
+		//System.out.println("\t*");
+		//System.out.println("\t*/");
+		
+		// パターン2
+		System.out.print("出力します\n"+ num1 +"\n"+ num2 +"\n"+ str +"\n"+ b +"\n\t*\n\t+/");
+	
 	}
 
 }
