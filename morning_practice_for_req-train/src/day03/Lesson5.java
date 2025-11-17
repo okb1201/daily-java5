@@ -1,4 +1,4 @@
-/* 追加問題
+/* 追加問題new
 
 パッケージ名 day03
 クラス名 Lesson5.java
@@ -21,13 +21,38 @@ input number[0or1]? >>2
 */
 package day03;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Lesson5 {
 
 	public static void main(String[] args) throws IOException {
-		/*ここから記入*/
-
+		boolean [] height = new boolean[2];
+		
+		// 要素に数値代入
+		height[0] = true;
+		height[1] = false;
+		int num ;
+		
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System. in));
+		System.out.println("input number[0or1]?");
+		String str = reader.readLine();
+		num = Integer.parseInt(str);
+		
+		switch (num) {
+		case 0:
+			// 0を入力した場合
+			System.out.println("配列の"+(num)+"番目は"+ height[num] +"です。");
+			break;
+		case 1:
+			// 1を入力した場合
+			System.out.println("配列の"+(num)+"番目は"+ height[num] +"です。");
+		    break;
+		default:
+			// それ以外を入力した場合
+			System.out.println("配列の範囲外の値が入力されました");
+			break;
+		}
 	}
-
 }
