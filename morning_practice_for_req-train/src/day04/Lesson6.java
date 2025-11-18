@@ -20,8 +20,19 @@ package day04;
 public class Lesson6 {
 
 	public static void main(String[] args) {
-		/*ここから記入*/
-
+		System.out.println("カンマ区切りで配列を出力します");
+		
+		String [] str = { "鈴木", "田中", "佐藤"};
+		String str2 = "";
+		
+		for (int i = 0; i < str.length; i++) {
+			str2 += str[i];
+			
+			if (i != str.length - 1) {
+				str2 += ",";
+			}
+		}
+		System.out.print("" + str2 + "");
+		System.out.println("\nシステムを終了します");
 	}
-
 }
