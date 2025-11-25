@@ -49,6 +49,10 @@ public class Lesson7 {
 		
 	    while (num <= 10 && num != 7) {
 		System.out.println("残念、はずれです。。。もう一回！");
+		BufferedReader reader2 = new BufferedReader(new InputStreamReader(System. in));
+		System.out.println("input number?[1-10]");
+		String str2 = reader2.readLine();
+		num = Integer.parseInt(str2);
 		continue;
 	}
 	    // 途中まで。未完成。
