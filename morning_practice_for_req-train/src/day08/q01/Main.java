@@ -50,14 +50,20 @@ class Main {
 	public static void main(String[] args) {
 
 		/*Magicクラスの生成、利用*/
-		Magic magic = new Magic("魔法使い");
+		Magic magic = new Magic("デスサイズ");
 
 		int magicMp = 10;
 
 		magic.attack(magicMp);
 
 		/*ここから記入*/
+		
+		Magic sorcerer = new Sorcerer("デスサイズ・ルーセット");
+		
+		int sorcererMp = 36;
 
+		sorcerer.attack(sorcererMp);
+        
 	}
 
 }

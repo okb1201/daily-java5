@@ -9,7 +9,7 @@ public class Magic {
 	}
 
 	public void attack(int mp) {
-		System.out.println("\n" + name + "の攻撃！！");
+		System.out.println("\n" + name + "のビームサイズ！！");
 		int damege = (int) (Math.random() * mp) + 10;
 		System.out.println("相手に" + damege + "のダメージ！！");
 	}
