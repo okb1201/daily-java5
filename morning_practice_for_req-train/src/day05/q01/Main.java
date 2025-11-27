@@ -45,8 +45,8 @@ class Main {
 		int cost = Integer.parseInt(br.readLine());
 		System.out.println("税抜き価格：\\" + cost);
 
-		CashRegister cashRegister = new CashRegister();// レジオブジェクトの生成
-		int priceIncludeTax = cashRegister.calcPrice(cost);// メソッドを呼び出し、戻り値を変数に代入
+		CashRegister cashRegister = new CashRegister();// オブジェクトの生成
+		int priceIncludeTax = cashRegister.calcPrice(cost);// 代入
 		System.out.println("税込み価格：\\" + priceIncludeTax);
 
 	}
