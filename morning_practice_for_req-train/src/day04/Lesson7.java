@@ -36,10 +36,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Lesson7 {
+/**
+ * @author mejiro
+ */
 
+public class Lesson7 {
+    
+	/**
+	 * コンストラクタ
+	 * @param args メインメソッドの引数
+	 * @throws IOException 負の数
+	 */
 	public static void main(String[] args) throws IOException {
 		/*ここから記入*/
+		
         System.out.println("数当てゲームです。\n1-10の整数を入力してください");
         
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System. in));
